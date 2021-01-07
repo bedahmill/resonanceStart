@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Nunito:wght@400;600&family=Poppins:wght@300;400&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.timer{
+    @apply rounded-full h-16 w-16 flex flex-col items-center justify-center animate-pulse 
+}
+.card{
+    @apply shadow-2xl border-2 border-primary rounded-2xl mx-5  mt-40 md:mx-10 lg:mx-5  w-10/12   text-gray-400 mx-auto
+}
